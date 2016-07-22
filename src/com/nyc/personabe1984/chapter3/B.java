@@ -3,6 +3,7 @@ package com.nyc.personabe1984.chapter3;
 import java.util.Random;
 
 /**
+ * 3.2
  * Write and run a java program that generates two random integers, determines their minimum, and prints it.
  */
 public class B {

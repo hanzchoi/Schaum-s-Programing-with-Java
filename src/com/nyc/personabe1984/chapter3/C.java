@@ -3,6 +3,7 @@ package com.nyc.personabe1984.chapter3;
 import java.util.Random;
 
 /**
+ * 3.3
  * Write and run a program that generates four random integers, determines their maximum, and prints it.
  */
 public class C {

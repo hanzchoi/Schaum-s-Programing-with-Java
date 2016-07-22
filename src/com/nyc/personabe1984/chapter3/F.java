@@ -1,11 +1,27 @@
 package com.nyc.personabe1984.chapter3;
 
+import java.util.Random;
+
 /**
- * Write a program that inputs three names and then prints them in their increasing alphabetical order. Use the String
- * class method compareTo(). For example, if s1 is the string ABACADABRA and s2 is the string ABLE, then s1.compareTo(s2)
- * will be a negative integer, s2.compareTo(s2) will be a 0,and s2.compareTo(s1) will be a positive integer.
- * So the condition (s1.compareTo(s2) <= 0) can be used to determine whether s1 precedes s2 lexicographically.
+ * 3.6
+ * Write and run a program that generates a random integer and reports whether it is divisible by 2, by 3,or by 5
+ * hint: n is divisible by d if the remainder from dividing n by d is 0
  */
 
 public class F {
+
+    public static void main(String[] args){
+        Random random = new Random();
+        int randomInteger = random.nextInt();
+        System.out.println("The integer value is " + randomInteger);
+        if(randomInteger % 2 ==0){
+            System.out.println(randomInteger + " is divisible by 2");
+        }else if(randomInteger % 3 == 0){
+            System.out.println(randomInteger + " is divisible by 3");
+        }else if(randomInteger % 5 == 0){
+            System.out.println(randomInteger + " is divisible by 5");
+        }else{
+            System.out.println(randomInteger + " is not divisible by 2, 3, or 5");
+        }
+    }
 }

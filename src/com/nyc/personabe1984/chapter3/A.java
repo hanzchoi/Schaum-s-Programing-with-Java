@@ -3,6 +3,7 @@ package com.nyc.personabe1984.chapter3;
 import java.util.Random;
 
 /**
+ * 3.1
  * Write and run a Java program that generate a random integer, test whether it is positive, and reports
  * if it is.
  */

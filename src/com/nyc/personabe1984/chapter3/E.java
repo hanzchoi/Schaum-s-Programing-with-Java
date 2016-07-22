@@ -3,6 +3,7 @@ package com.nyc.personabe1984.chapter3;
 import java.util.Random;
 
 /**
+ * 3.5
  * Write a program that generates three random floats and them prints them in their ascending order
  */
 
