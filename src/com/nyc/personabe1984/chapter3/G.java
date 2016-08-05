@@ -25,8 +25,33 @@ public class G {
         System.out.print("Enter the third name: ");
         s3 = in.readLine();
 
-        if(s1.compareTo(s2) <= 0){
+        if(s1.compareTo(s2) <= 0) { //meaning that s1 is before s2 ex: AA and AB
+            if(s3.compareTo(s1) <= 0){
+                System.out.println(s3 + " " + s1 + " " + s2);
+            }else if(s3.compareTo(s2) <= 0){  // when s3 is after s1
+                System.out.println(s1 + " " + s3 + " " + s2 );
+            }else{
+                System.out.println(s1 + " " + s2 + " " + s3);
+            }
+        }else{ //when s2 is before s1
+            if(s3.compareTo(s2) <= 0){
+                System.out.println(s3 + " " + s2 + " " + s1);
+            }else if(s3.compareTo(s1) <= 0){
+                System.out.println(s2 + " " + s3 + " " + s1);
+            }else{
+                System.out.println(s2 + " " + s1 + " " + s3);
+            }
 
         }
     }
 }
+
+/**
+ * pos com
+ * s1 s2 s3 check
+ * s1 s3 s2 check
+ * s2 s1 s3 check
+ * s2 s3 s1 check
+ * s3 s1 s2 check
+ * s3 s2 s1 check
+ */
